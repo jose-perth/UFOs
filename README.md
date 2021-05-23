@@ -6,14 +6,14 @@ This project is the 11th weekly challenge of the Data Science Bootcamp. It allow
 
 ### Purpose
 
-We extended the functionality of the dynamic table. It is now possible to filter the UFO data using multiple criteria. Filtering can do be performed by date, city, state, country and shape fields.
+We extended the functionality of the dynamic table. It is now possible to filter the UFO data using multiple criteria. Filtering can now be performed by date, city, state, country and shape.
 
 ## Results
 
 The following folder and files are part of the project:
 
 - [index.html](./index.html)
-- [static/css/style.css](./static/css/style.css):  css file with additional formatting of html file.
+- [static/css/style.css](./static/css/style.css):  css file with additional formatting.
 - [static/js/app.js](./static/js/app.js): application file.
 - [static/js/data.js](./static/js/data.js) data file.
 - [static/images/](./static/images): folder containing images used by web file.
@@ -27,7 +27,7 @@ After opening the [index.html](./index.html) file, the user can enter values on 
 
 ![Filter Search fields](./Resources/Using_the_filters_1.png)
 
-Enter a value in one of the field and then press **enter** or move to a different field. The table will change according to the filtered values.
+Enter a value in one of the fields and then press ***Enter*** or move to a different field. The table will change according to the filtered value.
 
 ![Apply 1 filter](./Resources/Using_the_filters_2.png)
 
@@ -43,10 +43,10 @@ Filters can be removed one at the time by deleting the values on the input boxes
 
 The filters work as initially intended.  However as a filtering tool it has multiple shortcomings or drawbacks:
 
-- single value filtering for each criteria. For example, it wouldn't be possible to filter for entries in 2 states simultaneously.
-- exact match filtering only. The value entered in the filter input boxes must match exactly those on the data. Including the character case and date format.
+- single value filtering for each criteria. It wouldn't be possible to filter for entries in 2 states simultaneously.
+- exact match filtering only. The values entered in the filter input boxes must match exactly those on the data. Including the character case and date format.
 
-Additionally, the data is presented as it was provided in the input data.  Some formatting may be needed for aesthetic purposes, such as proper casing text and standardizing duration units.
+Additionally, the data is presented as it was provided by the input data file.  Some formatting may be needed for aesthetic purposes, such as proper casing text and standardisation of duration units.
 
 ### Future improvements
 
